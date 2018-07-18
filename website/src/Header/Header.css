@@ -1,0 +1,26 @@
+span {
+  padding: 0px 40px 0px 40px;
+  font-size: 2em;
+}
+
+.header {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  padding-left: 10px;
+  font-size: 2em;
+  float: left;
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.links {
+  width: 50%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
