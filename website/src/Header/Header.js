@@ -3,10 +3,14 @@ import React, { Component } from 'react';
 import './Header.css';
 
 class Header extends Component {
+  handleClick = () => {
+    console.log("clicked!");
+  }
+
   render() {
     const headerLinks = ["Home", "Projects", "About"];
     const listItems = headerLinks.map((item) => 
-      <span>{item}</span>
+      <a onClick={this.handleClick}>{item}</a>
     );
     const links = <div className="links">{listItems}</div>
 
