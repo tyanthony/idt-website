@@ -10,7 +10,7 @@ class Header extends Component {
   render() {
     const headerLinks = ["Home", "Projects", "About"];
     const listItems = headerLinks.map((item) => 
-      <a onClick={this.handleClick}>{item}</a>
+      <a onClick={this.handleClick} key={item}>{item}</a>
     );
     const links = <div className="links">{listItems}</div>
 
