@@ -4,8 +4,13 @@ import './Home.css';
 
 class Home extends Component {
   render() {
+    const whoWeAre = <div>Who we are here</div>;
+
     return (
-      <div className="home">Welcome home!</div>
+      <div className="home">
+        Welcome home!
+        {whoWeAre}
+      </div>
     );
   }
 }

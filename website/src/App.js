@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './Header/Header.js';
+import Footer from './Footer/Footer.js'
 import Home from './Home/Home.js';
 
 class App extends Component {
@@ -12,7 +13,12 @@ class App extends Component {
         <header className="App-header">
           <Header />
         </header>
-        <Home />
+        <main>
+          <Home />
+        </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     );
   }
