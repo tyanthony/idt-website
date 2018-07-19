@@ -1,4 +1,4 @@
-.App {
+.app {
   text-align: center;
   height: 100%;
   width: 100%;
@@ -6,9 +6,17 @@
   flex-direction: column;
 }
 
-.App-header {
+.header {
   text-align: left;
-  background-color: #222;
+  background-image: url("./Images/digital.png");
   color: white;
   vertical-align: middle;
+}
+
+.main {
+  background-image: url("./Images/topo-white.jpg");
+}
+
+.footer {
+  background-color: lightslategray;
 }
