@@ -5,7 +5,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return (
-      <div>Welcome home!</div>
+      <div className="home">Welcome home!</div>
     );
   }
 }
