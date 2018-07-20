@@ -34,12 +34,7 @@ p {
   width: 50%;
 }
 
-.whoP {
-  width: 50%;
-  text-align: right;
-}
-
-.whatP {
+.whoP, .whatP {
   width: 50%;
   text-align: left;
 }
