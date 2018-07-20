@@ -24,10 +24,10 @@ p {
 
 .whoWeAre, .whatWeDo {
   width: 75%;
+  height: 30%;
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
 }
 
 .whoTitle, .whatTitle {
