@@ -10,14 +10,15 @@ class Header extends Component {
   render() {
     const headerLinks = ["Home", "Projects", "About"];
     const listItems = headerLinks.map((item) => 
-      <a onClick={this.handleClick} key={item}>{item}</a>
+      <a onClick={this.handleClick} key={item} className="listItems">{item}</a>
     );
-    const links = <div className="links">{listItems}</div>
+
+    const links = <div className="headerLinks">{listItems}</div>
 
     const title = <div className="title">Esri Vienna R &amp; D</div>
 
     return (
-      <div className="header">
+      <div className="headerContainer">
         {title}
         {links}
       </div>

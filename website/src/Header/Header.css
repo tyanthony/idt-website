@@ -1,10 +1,11 @@
-a {
+.listItems {
   padding: 0px 40px 0px 40px;
   font-size: 2em;
   cursor: pointer;
+  color: white;
 }
 
-.header {
+.headerContainer {
   height: 75px;
   display: flex;
   flex-direction: row;
@@ -19,9 +20,10 @@ a {
   margin-bottom: auto;
 }
 
-.links {
+.headerLinks {
   width: 50%;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  color: white;
 }
