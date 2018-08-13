@@ -17,18 +17,19 @@ class About extends Component {
   
   render() {
     return (
+      <section className="flipcard-section">
+        <ReactCardFlip isFlipped={this.state.isFlipped}>
+          <div key="front" className="flipcard">
+            This is the FRONT
+            <button onClick={ this.handleClick }>Flip</button>
+          </div>
 
-      <ReactCardFlip isFlipped={this.state.isFlipped}>
-        <div key="front">
-          This is the FRONT
-          <button onClick={ this.handleClick }>Flip</button>
-        </div>
-
-        <div key="back">
-          This is the BACK
-          <button onClick={ this.handleClick }>Flip</button>
-        </div>
-      </ReactCardFlip>
+          <div key="back" className="flipcard">
+            This is the BACK
+            <button onClick={ this.handleClick }>Flip</button>
+          </div>
+        </ReactCardFlip>
+      </section>
     );
   }
 }
