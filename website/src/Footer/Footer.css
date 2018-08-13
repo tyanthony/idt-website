@@ -1,9 +1,9 @@
-.footer {
+.footerContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
-  padding: 10px;;
+  padding: 10px;
 }
 
 .logo {
@@ -20,4 +20,5 @@
 
 .footerLinks {
   margin: 5px;
+  font-size: 2em;
 }
