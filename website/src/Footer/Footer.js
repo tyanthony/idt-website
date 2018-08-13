@@ -8,11 +8,11 @@ class Footer extends Component {
 
     const links = 
       <div className="footerLinks">
-          <a >About</a>
-          <a >Contact Us</a>
-          <a href="https://www.esri.com/en-us/about/careers/job-search#@careerPath=@location=US-VA-Vienna@jobSearch=">Careers</a>
-          <a href="https://www.esri.com/en-us/home">Esri</a>
-          <a href="https://developers.arcgis.com/javascript/">ArcGIS API</a>
+        <a >About</a>
+        <a >Contact Us</a>
+        <a href="https://www.esri.com/en-us/about/careers/job-search#@careerPath=@location=US-VA-Vienna@jobSearch=">Careers</a>
+        <a href="https://www.esri.com/en-us/home">Esri</a>
+        <a href="https://developers.arcgis.com/javascript/">ArcGIS API</a>
       </div>;
 
     return (
