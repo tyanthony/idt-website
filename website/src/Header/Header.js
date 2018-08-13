@@ -12,7 +12,7 @@ class Header extends Component {
     const listItems = headerLinks.map((item) => 
       <a onClick={this.handleClick} key={item}>{item}</a>
     );
-    const links = <div className="links">{listItems}</div>
+    const links = <div className="headerLinks">{listItems}</div>
 
     const title = <div className="title">Esri Vienna R &amp; D</div>
 

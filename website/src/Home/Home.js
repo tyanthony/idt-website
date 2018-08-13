@@ -22,7 +22,7 @@ class Home extends Component {
     const whatWeDo = 
       <div className="whatWeDo">
         <p className="whatP">
-          We at the Vienna R&amp;D center strive to bring intelligent and useful ArcGIS software to a wide variety of teams and organizations. 
+          We at the Vienna R&amp;D Center strive to bring intelligent and useful ArcGIS software to a wide variety of teams and organizations. 
           Ultimately, our goal is to provide helpful software that allows its users to successfully analyze and make decisions during critical events.
           We build software for crucial governmental organizations and operations to provide users with the tools they need to make 
           intelligent decisions.
