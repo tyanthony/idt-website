@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './Header/Header.js';
-import Footer from './Footer/Footer.js'
-import Home from './Home/Home.js';
+import Footer from './Footer/Footer.js';
+import Main from './Main/Main.js';
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
           <Header />
         </header>
         <main className="main">
-          <Home />
+          <Main />
         </main>
         <footer className="footer">
           <Footer />

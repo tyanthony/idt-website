@@ -4,6 +4,9 @@
   cursor: pointer;
   color: white;
 }
+.listItems:hover {
+  background-color: lightblue;
+}
 
 .headerContainer {
   height: 75px;

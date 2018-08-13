@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Header.css';
 
 class Header extends Component {
-  handleClick = () => {
-    console.log("clicked!");
-  }
 
   render() {
-    const headerLinks = ["Home", "Projects", "About"];
-    const listItems = headerLinks.map((item) => 
-      <a onClick={this.handleClick} key={item} className="listItems">{item}</a>
-    );
+    const homeLink = <Link to="/" className="listItems">Home</Link>;
+    const projectsLink = <Link to="/projects" className="listItems">Projects</Link>;
+    const aboutLink = <Link to="/about" className="listItems">About</Link>;
 
-    const links = <div className="headerLinks">{listItems}</div>
+    const links = 
+      <div className="headerLinks">
+        {homeLink}
+        {projectsLink}
+        {aboutLink}
+      </div>
 
     const title = <div className="title">Esri Vienna R &amp; D</div>
 
