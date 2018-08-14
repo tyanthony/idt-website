@@ -16,12 +16,12 @@ class About extends Component {
         </p>
       </div>;
       
-    const cards = 
-      <div className="flipcard-wrapper">
+    const team = 
+      <div className="meet-the-team">
         <h1>Meet the Team</h1>
-        <div>
+        <div className="flipcard-wrapper">
           { MembersAPI.getAll().map(m => 
-            <Flipcard key={m.id}/>
+            <Flipcard key={m.id} member={m}/>
           ) }
         </div>
       </div>;
@@ -29,7 +29,7 @@ class About extends Component {
     return (
       <div className="about">
         {mission}
-        {cards}
+        {team}
       </div>
     );
   }

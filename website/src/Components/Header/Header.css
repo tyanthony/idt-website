@@ -4,7 +4,7 @@
   cursor: pointer;
   color: white;
 }
-.listItems:hover {
+.listItems:hover, .listItems:active, .listItems:visited {
   color: white;
 }
 

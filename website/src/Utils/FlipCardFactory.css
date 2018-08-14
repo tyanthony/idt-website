@@ -1,5 +1,6 @@
 .flipcard-section {
-  width: 300px;
+  width: 150px;
+  margin: 10px;
 }
 
 .flipcard {
@@ -9,8 +10,8 @@
   align-content: center;
   border: 1px solid black;
   border-radius: 10px;
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: 150px;
   background-color: white;
 }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactCardFlip from 'react-card-flip';
+import { Button, Image } from 'react-bootstrap';
 
 import './FlipCardFactory.css';
 
@@ -20,19 +21,20 @@ class Flipcard extends Component {
       <section className="flipcard-section">
         <ReactCardFlip isFlipped={this.state.isFlipped}>
           <div key="front" className="flipcard">
-            This is the FRONT
-            <button onClick={ this.handleClick } className="flipcard-button">Flip</button>
+            <Image circle/>
+            <h4>{this.props.member.name}</h4>
+            <Button onClick={ this.handleClick } className="flipcard-button" bsStyle="primary" bsSize="small">Flip</Button>
           </div>
 
           <div key="back" className="flipcard">
-            This is the BACK
-            <button onClick={ this.handleClick } className="flipcard-button">Flip</button>
+            <h4>{this.props.member.name}</h4>
+            <p>{this.props.member.funFact}</p>
+            <Button onClick={ this.handleClick } className="flipcard-button" bsStyle="primary" bsSize="small">Flip</Button>
           </div>
         </ReactCardFlip>
       </section>
     );
   }
 }
-
 
 export default Flipcard;
