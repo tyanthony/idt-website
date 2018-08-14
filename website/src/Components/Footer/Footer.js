@@ -13,7 +13,7 @@ class Footer extends Component {
         <a className="footerLinks" href="https://www.esri.com/en-us/about/careers/job-search#@careerPath=@location=US-VA-Vienna@jobSearch=">Careers</a>
         <a className="footerLinks" href="https://developers.arcgis.com/javascript/">ArcGIS API</a>
         <Link to="/about" className="footerLinks">About</Link>
-        <a className="footerLinks">Contact Us</a>
+        <Link to="/contact-us" className="footerLinks">Contact Us</Link>
       </div>;
 
     return (
