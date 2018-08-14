@@ -1,0 +1,29 @@
+.projects {
+  padding-top: 3em;
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.wrappers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.wrapper-button {
+  width: 100px;
+}
+
+.wrapper-title {
+  text-align: left;
+}
