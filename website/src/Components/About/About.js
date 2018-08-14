@@ -1,19 +1,10 @@
 import React, { Component } from 'react';
-import ReactCardFlip from 'react-card-flip';
 
 import './About.css';
 
-class About extends Component {
-  constructor() {
-    super();
-    this.state = { isFlipped: false, };
-    this.handleClick = this.handleClick.bind(this);
-  }
+import Flipcard from '../../Utils/FlipCardFactory';
 
-  handleClick(e) {
-    e.preventDefault();
-    this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
-  }
+class About extends Component {
   
   render() {
     const mission = 
@@ -27,21 +18,8 @@ class About extends Component {
     const cards = 
       <div className="flipcard-wrapper">
         <h1>Meet the Team</h1>
-        <section className="flipcard-section">
-          <ReactCardFlip isFlipped={this.state.isFlipped}>
-            <div key="front" className="flipcard">
-              This is the FRONT
-              <button onClick={ this.handleClick } className="flipcard-button">Flip</button>
-            </div>
-
-            <div key="back" className="flipcard">
-              This is the BACK
-              <button onClick={ this.handleClick } className="flipcard-button">Flip</button>
-            </div>
-          </ReactCardFlip>
-        </section>
-      </div>
-      ;
+        <Flipcard />
+      </div>;
 
     return (
       <div className="about">
@@ -50,6 +28,7 @@ class About extends Component {
       </div>
     );
   }
+
 }
 
 export default About;

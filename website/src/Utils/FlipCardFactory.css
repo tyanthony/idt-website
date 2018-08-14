@@ -1,0 +1,23 @@
+.flipcard-section {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flipcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 250px;
+  background-color: white;
+}
+
+.flipcard-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
