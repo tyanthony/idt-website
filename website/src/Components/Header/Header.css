@@ -4,8 +4,8 @@
   cursor: pointer;
   color: white;
 }
-.listItems:hover {
-  background-color: lightblue;
+.listItems:hover, .listItems:active, .listItems:visited {
+  color: white;
 }
 
 .headerContainer {
