@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './About.css';
 
 import Flipcard from '../../Utils/FlipCardFactory';
+import { MembersAPI } from '../../Utils/MembersAPI';
 
 class About extends Component {
   
@@ -18,7 +19,11 @@ class About extends Component {
     const cards = 
       <div className="flipcard-wrapper">
         <h1>Meet the Team</h1>
-        <Flipcard />
+        <div>
+          { MembersAPI.getAll().map(m => 
+            <Flipcard key={m.id}/>
+          ) }
+        </div>
       </div>;
 
     return (
