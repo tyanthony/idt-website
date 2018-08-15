@@ -1,24 +1,44 @@
-.footerContainer {
+.footer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 .logo {
   width: 50%;
-  text-align: center;
+  display: flex;
+  align-content: center;
 }
 
-.linksContainer {
+.logo-image {
+  height: 80%;
+  width: 45%;
+  margin: auto;
+}
+
+.links-container {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  align-content: flex-start;
+  text-align: left;
+  width: 40%;
   font-size: 0.5em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.footerLinks {
+.links-title {
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+  color: white;
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+.footer-links {
   margin: 5px;
   font-size: 2em;
+  color: white;
 }
