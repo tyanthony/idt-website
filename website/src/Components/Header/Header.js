@@ -7,7 +7,7 @@ class Header extends Component {
 
   render() {
     const homeLink = <div className="link-wrapper"><Link to="/" className="list-items">Home</Link></div>;
-    const projectsLink =<div className="link-wrapper"> <Link to="/projects" className="list-items">Projects</Link></div>;
+    const projectsLink =<div className="link-wrapper"><Link to="/projects" className="list-items">Projects</Link></div>;
     const aboutLink = <div className="link-wrapper"><Link to="/about" className="list-items">About</Link></div>;
 
     const links = 
