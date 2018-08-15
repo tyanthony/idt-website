@@ -6,21 +6,21 @@ import './Header.css';
 class Header extends Component {
 
   render() {
-    const homeLink = <Link to="/" className="listItems">Home</Link>;
-    const projectsLink = <Link to="/projects" className="listItems">Projects</Link>;
-    const aboutLink = <Link to="/about" className="listItems">About</Link>;
+    const homeLink = <div className="link-wrapper"><Link to="/" className="list-items">Home</Link></div>;
+    const projectsLink =<div className="link-wrapper"> <Link to="/projects" className="list-items">Projects</Link></div>;
+    const aboutLink = <div className="link-wrapper"><Link to="/about" className="list-items">About</Link></div>;
 
     const links = 
-      <div className="headerLinks">
+      <div className="header-links">
         {homeLink}
         {projectsLink}
         {aboutLink}
-      </div>
+      </div>;
 
-    const title = <div className="title">Esri Vienna R &amp; D</div>
+    const title = <div className="title">Esri Vienna R &amp; D</div>;
 
     return (
-      <div className="headerContainer">
+      <div className="header-container">
         {title}
         {links}
       </div>
