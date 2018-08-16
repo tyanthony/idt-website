@@ -21,7 +21,7 @@ class Projects extends Component {
         <h4 className="wrapper-title">Spyder</h4>
         <Button onClick={() => this.setState({ spyderOpen: !this.state.spyderOpen })} className="wrapper-button">Learn More</Button>
         <Collapse in={this.state.spyderOpen}>
-          <div>
+          <div className="projects-well">
             <Well>
               This tells about the Spyder App and gives information about it and can even have a link at the bottom
             </Well>
@@ -34,7 +34,7 @@ class Projects extends Component {
         <h4 className="wrapper-title">Excalibur</h4>
         <Button onClick={() => this.setState({ excaliburOpen: !this.state.excaliburOpen })} className="wrapper-button">Learn More</Button>
         <Collapse in={this.state.excaliburOpen}>
-          <div>
+          <div className="projects-well">
             <Well>
               This tells about the Excalibur App and gives information about it and can even have a link at the bottom
             </Well>
@@ -47,7 +47,7 @@ class Projects extends Component {
         <h4 className="wrapper-title">FMV</h4>
         <Button onClick={() => this.setState({ fmvOpen: !this.state.fmvOpen })} className="wrapper-button">Learn More</Button>
         <Collapse in={this.state.fmvOpen}>
-          <div>
+          <div className="projects-well">
             <Well>
               This tells about the FMV App and gives information about it and can even have a link at the bottom
             </Well>
@@ -60,7 +60,7 @@ class Projects extends Component {
         <h4 className="wrapper-title">CMP</h4>
         <Button onClick={() => this.setState({ cmpOpen: !this.state.cmpOpen })} className="wrapper-button">Learn More</Button>
         <Collapse in={this.state.cmpOpen}>
-          <div>
+          <div className="projects-well">
             <Well>
               This tells about the CMP App and gives information about it and can even have a link at the bottom
             </Well>

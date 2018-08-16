@@ -30,7 +30,7 @@ class ContactUs extends Component {
             <p>Sunday: Closed</p>
           </div>
         </div>
-        <div>
+        <div className="contact-us-map">
           {map}
         </div>
       </div>;
